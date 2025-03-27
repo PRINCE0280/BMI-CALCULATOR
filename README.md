@@ -13,9 +13,9 @@ User-friendly and easy to use.
 
 How to Use
 
-Enter your weight (kg/lbs).
+Enter your weight (KG).
 
-Enter your height (cm/ft).
+Enter your height (CM).
 
 Click the Calculate button.
 
@@ -23,4 +23,4 @@ View your BMI and health category.
 
 Technologies Used
 
-HTML, CSS, JavaScript (if it's a web project)
+HTML, CSS, JavaScript 
