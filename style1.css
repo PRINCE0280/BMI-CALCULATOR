@@ -1,0 +1,185 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Ensures proper vertical alignment */
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 400px;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    color: #333;
+}
+
+/* Headings */
+h1 {
+    color: #1e3c72;
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+h3 {
+    color: #1e3c72;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Form Styling */
+form p {
+    font-size: 16px;
+    margin: 10px 0;
+    text-align: left;
+}
+
+label {
+    font-weight: 600;
+    color: #555;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Input Fields */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid #2a5298;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+    box-sizing: border-box; /* Prevents input overflow */
+    display: block;
+}
+
+/* Input Field Focus */
+input:focus {
+    border-color: #1e3c72;
+    box-shadow: 0px 0px 5px rgba(30, 60, 114, 0.5);
+}
+
+/* Buttons */
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+/* Calculate Button */
+button:first-of-type {
+    background-color: #2a5298;
+    color: white;
+}
+
+button:first-of-type:hover {
+    background-color: #1e3c72;
+}
+
+/* Reset Button */
+#reset {
+    background-color: #e63946;
+    color: white;
+    margin-top: 15px;
+    padding: 14px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#reset:hover {
+    background-color: #b71c1c;
+}
+
+/* BMI Result Section */
+#results {
+    margin-top: 15px;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #2a5298;
+    background: #eef2f3;
+    border-radius: 8px;
+}
+
+/* BMI Weight Guide Section */
+#weight-guide {
+    margin-top: 15px;
+    padding: 15px;
+    background: #f1f5f9;
+    border-radius: 12px;
+    text-align: left;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Weight Guide Text */
+#weight-guide p {
+    font-size: 14px;
+    color: #333;
+    font-weight: 500;
+    margin: 6px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    .container {
+        width: 95%;
+        max-width: 350px;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    form p {
+        font-size: 14px;
+    }
+
+    input {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    button {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    #reset {
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    #results {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    #weight-guide {
+        padding: 12px;
+        font-size: 13px;
+    }
+}
